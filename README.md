@@ -3,9 +3,9 @@ https://fabiensanglard.net/rayTracing_back_of_business_card/
 
 # what is interesting
 represent sphere as a center $C$ and radius $r$, use 4 numbers $(C_x, C_y, C_z, r)$</br>
-$(x - C_x) ^ 2 + (y - C_y) ^ 2 + (z - C_z) ^ 2 = r ^ 2$
-$\text{vector from center } \textbf{C} := (C_x, C_y, C_z) \text{ to point } \textbf{P} := (x, y, z) \text{ is } \textbf{P - C}\\
-\text{equation of sphere becomes }  \textbf{(P - C)} \cdot \textbf{(P - C)} = r ^ 2\\
+$(x - C_x) ^ 2 + (y - C_y) ^ 2 + (z - C_z) ^ 2 = r ^ 2$</br>
+$\text{vector from center } \textbf{C} := (C_x, C_y, C_z) \text{ to point } \textbf{P} := (x, y, z) \text{ is } \textbf{P - C}$</br>
+$\text{equation of sphere becomes }  \textbf{(P - C)} \cdot \textbf{(P - C)} = r ^ 2\\
 \text{if ray hits the sphere, then } \exists t, \textbf{P}(t) = \textbf{A} + t\textbf{b} \text{ that satisfies the sphere equation}\\
 \text{substitute } \textbf{P}(t) \text{ into the sphere equation } (\textbf{A} + t\textbf{b} - \textbf{C}) \cdot (\textbf{A} + t\textbf{b} - \textbf{C}) = r ^ 2\\
 ((\textbf{A} - \textbf{C}) + t\textbf{b}) \cdot ((\textbf{A} - \textbf{C}) + t\textbf{b}) = r ^ 2\\
