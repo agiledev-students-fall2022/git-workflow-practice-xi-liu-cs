@@ -11,6 +11,10 @@ $\text{substitute } \textbf{P}(t) \text{ into the sphere equation } (\textbf{A} 
 $((\textbf{A} - \textbf{C}) + t\textbf{b}) \cdot ((\textbf{A} - \textbf{C}) + t\textbf{b}) = r ^ 2$</br>
 $\textbf{b} \cdot \textbf{b} t ^ 2 + 2\textbf{b} \cdot (\textbf{A} - \textbf{C}) t + (\textbf{A} - \textbf{C}) \cdot (\textbf{A} - \textbf{C}) - r ^ 2 = 0$</br>
 $\text{solve for } t \text{ by using quadratic equation}$
+$\begin{align*}
+&\text{since there is a factor of 2 in expression for } b, \text{can simply by setting} b = 2 half_b\\
+&\text{then}
+\end{align*}$
 
 $V = (V_x, V_y, V_z, 1)$</br>
 $W = (W_x, W_y, W_z, 0)$</br>
