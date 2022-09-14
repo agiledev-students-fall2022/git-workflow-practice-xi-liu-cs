@@ -10,7 +10,7 @@ $\text{if ray hits the sphere, then } \exists t, \textbf{P}(t) = \textbf{A} + t\
 $\text{substitute } \textbf{P}(t) \text{ into the sphere equation } (\textbf{A} + t\textbf{b} - \textbf{C}) \cdot (\textbf{A} + t\textbf{b} - \textbf{C}) = r ^ 2$</br>
 $((\textbf{A} - \textbf{C}) + t\textbf{b}) \cdot ((\textbf{A} - \textbf{C}) + t\textbf{b}) = r ^ 2$</br>
 $\textbf{b} \cdot \textbf{b} t ^ 2 + 2\textbf{b} \cdot (\textbf{A} - \textbf{C}) t + (\textbf{A} - \textbf{C}) \cdot (\textbf{A} - \textbf{C}) - r ^ 2 = 0$</br>
-$\text{solve for } t \text{ by using quadratic equation}\\$
+$\text{solve for } t \text{ by using quadratic equation}$
 
 $V = (V_x, V_y, V_z, 1) /* point */$</br>
 $W = (W_x, W_y, W_z, 0) /* direction */$</br>$
