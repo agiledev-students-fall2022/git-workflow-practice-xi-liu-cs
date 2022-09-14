@@ -12,8 +12,8 @@ $((\textbf{A} - \textbf{C}) + t\textbf{b}) \cdot ((\textbf{A} - \textbf{C}) + t\
 $\textbf{b} \cdot \textbf{b} t ^ 2 + 2\textbf{b} \cdot (\textbf{A} - \textbf{C}) t + (\textbf{A} - \textbf{C}) \cdot (\textbf{A} - \textbf{C}) - r ^ 2 = 0$</br>
 $\text{solve for } t \text{ by using quadratic equation}$
 
-$V = (V_x, V_y, V_z, 1) /* point */$</br>
-$W = (W_x, W_y, W_z, 0) /* direction */$</br>
+$V = (V_x, V_y, V_z, 1) //* point *//$</br>
+$W = (W_x, W_y, W_z, 0) //* direction *//$</br>
 normalize vectors, set length to 1. distinguish between a point and a direction,
 an address in memory vs a difference between 2 addresses in memory.
 just as computer memory, a point has an absolute location, a direction does not, direction is the same no matter where you are.
