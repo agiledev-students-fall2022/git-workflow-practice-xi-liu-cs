@@ -42,4 +42,4 @@ $c = c_i \max(0, \textbf{e} \cdot \textbf{r}) ^ p$</br>
 combine lambertian and phong, add a control term $c_p$ which is a RGB color, and use halfway unit vector $\textbf{h}$ between $\textbf{l}$ and $\textbf{e}$</br>
 $\textbf{h} = \frac{\textbf{e} + \textbf{l}}{||\textbf{e} + \textbf{l}||}$</br>
 $c = c_r(c_a + c_l \max(0, \textbf{n} \cdot \textbf{l})) + c_i c_p(\textbf{h} \cdot \textbf{n}) ^ p$</br>
->Xi Liu 2022/9/14
+>Xi Liu
