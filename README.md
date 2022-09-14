@@ -2,6 +2,7 @@
 https://fabiensanglard.net/rayTracing_back_of_business_card/
 
 # what is interesting
+ray tracing using ray sphere intersection code</br>
 represent sphere as a center $C$ and radius $r$, use 4 numbers $(C_x, C_y, C_z, r)$</br>
 $(x - C_x) ^ 2 + (y - C_y) ^ 2 + (z - C_z) ^ 2 = r ^ 2$</br>
 $\text{vector from center } \textbf{C} := (C_x, C_y, C_z) \text{ to point } \textbf{P} := (x, y, z) \text{ is } \textbf{P - C}$</br>
