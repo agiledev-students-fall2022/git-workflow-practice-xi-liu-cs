@@ -28,7 +28,7 @@ $c \propto \cos\theta$</br>
 $c \propto \textbf{n} \cdot \textbf{l}$</br>
 adding diffuse reflectance $c_r$, RGB intensity $c_i$</br>
 $c = c_r c_i \textbf{n} \cdot \textbf{l}$</br>
-remove case when dot product is negative</br>
+exclude case when dot product is negative</br>
 $c = c_r c_i \max(0, \textbf{n} \cdot \textbf{l})$</br>
 $c = c_r c_i |\textbf{n} \cdot \textbf{l}|$</br>
 to account for ambient lighting such as skylight, add an ambient term $c_a$</br>
