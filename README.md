@@ -23,7 +23,7 @@ taking something in 3d space, ignore everything in that 3d space except what mat
 it does not know that it is in a 3d space, all it cares is that I keep walking along the ray from v and eventually, am I about to 
 bump into the sphere or not?
 lambertian shading model</br>
-color $c$ of a surface is proportional to cosine of angle between surface normal \textbf{n} and direction to light source \textbf{l} 
+color $c$ of a surface is proportional to cosine of angle between surface normal $\textbf{n}$ and direction to light source $\textbf{l}$</br>
 $c \propto \cos\theta$</br>
 $c \propto \textbf{n} \cdot \textbf{l}$</br>
 adding diffuse reflectance $c_r$, RGB intensity $c_i$</br>
