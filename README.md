@@ -3,7 +3,9 @@ https://fabiensanglard.net/rayTracing_back_of_business_card/
 
 # what is interesting
 **Ray Tracing Using Ray Sphere Intersection Code**
+
 ![Using Ray to Track Sphere!](https://fabiensanglard.net/rayTracing_back_of_business_card/minray.png)
+
 ### 1.
 represent sphere as a center $C$ and radius $r$, use 4 numbers $(C_x, C_y, C_z, r)$</br>
 $(x - C_x) ^ 2 + (y - C_y) ^ 2 + (z - C_z) ^ 2 = r ^ 2$</br>
