@@ -2,7 +2,11 @@
 https://fabiensanglard.net/rayTracing_back_of_business_card/
 
 # what is interesting
-ray tracing using ray sphere intersection code</br>
+**Ray Tracing Using Ray Sphere Intersection Code**
+
+![Using Ray to Track Sphere!](https://fabiensanglard.net/rayTracing_back_of_business_card/minray.png)
+
+### 1.
 represent sphere as a center $C$ and radius $r$, use 4 numbers $(C_x, C_y, C_z, r)$</br>
 $(x - C_x) ^ 2 + (y - C_y) ^ 2 + (z - C_z) ^ 2 = r ^ 2$</br>
 $\text{vector from center } \textbf{C} := (C_x, C_y, C_z) \text{ to point } \textbf{P} := (x, y, z) \text{ is } \textbf{P - C}$</br>
@@ -14,6 +18,7 @@ $((\textbf{A} - \textbf{C}) + t\textbf{b}) \cdot ((\textbf{A} - \textbf{C}) + t\
 $\textbf{b} \cdot \textbf{b} t ^ 2 + 2\textbf{b} \cdot (\textbf{A} - \textbf{C}) t + (\textbf{A} - \textbf{C}) \cdot (\textbf{A} - \textbf{C}) - r ^ 2 = 0$</br>
 $\text{solve for } t \text{ by using quadratic equation}$
 
+### 2.
 $V = (V_x, V_y, V_z, 1)$</br>
 $W = (W_x, W_y, W_z, 0)$</br>
 normalize vectors, set length to 1. distinguish between a point and a direction,
@@ -23,6 +28,8 @@ just as computer memory, a point has an absolute location, a direction does not,
 taking something in 3d space, ignore everything in that 3d space except the ray in a 1d universe. it has a single variable t, a little ant walking along the ray, the ant lives its entire life along that ray.
 it does not know that it is in a 3d space, all it does is keep walking along the ray from v and eventually, is it about to 
 bump into the sphere or not?</br>
+
+### 3.
 lambertian shading model</br>
 color $c$ of a surface is proportional to cosine of angle between surface normal $\textbf{n}$ and direction to light source $\textbf{l}$</br>
 $c \propto \cos\theta$</br>
@@ -43,3 +50,5 @@ combine lambertian and phong, add a control term $c_p$ which is a RGB color, and
 $\textbf{h} = \frac{\textbf{e} + \textbf{l}}{||\textbf{e} + \textbf{l}||}$</br>
 $c = c_r(c_a + c_l \max(0, \textbf{n} \cdot \textbf{l})) + c_i c_p(\textbf{h} \cdot \textbf{n}) ^ p$</br>
 >Xi Liu
+>
+>>Yiyi Wu (Yvonne) Made Changes
