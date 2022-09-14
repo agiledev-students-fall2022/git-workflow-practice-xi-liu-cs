@@ -25,11 +25,11 @@ bump into the sphere or not?
 lambertian shading model</br>
 color $c$ of a surface is proportional to cosine of angle between surface normal \textbf{n} and direction to light source \textbf{l} 
 $c \propto \cos\theta$</br>
-$c \propto \textbf{n} \cdot \textbf{l}$
-adding diffuse reflectance $c_r$, RGB intensity $c_i$
-$c = c_r c_i \textbf{n} \cdot \textbf{l}$
-remove case when dot product is negative
-$c = c_r c_i \max(0, \textbf{n} \cdot \textbf{l})$
-$c = c_r c_i |\textbf{n} \cdot \textbf{l}|$
-to account for ambient lighting such as skylight, add an ambient term $c_a$
-$c = c_r(c_a + c_l \max(0, \textbf{n} \cdot \textbf{l}))$
+$c \propto \textbf{n} \cdot \textbf{l}$</br>
+adding diffuse reflectance $c_r$, RGB intensity $c_i$</br>
+$c = c_r c_i \textbf{n} \cdot \textbf{l}$</br>
+remove case when dot product is negative</br>
+$c = c_r c_i \max(0, \textbf{n} \cdot \textbf{l})$</br>
+$c = c_r c_i |\textbf{n} \cdot \textbf{l}|$</br>
+to account for ambient lighting such as skylight, add an ambient term $c_a$</br>
+$c = c_r(c_a + c_l \max(0, \textbf{n} \cdot \textbf{l}))$</br>
