@@ -16,7 +16,7 @@ $V = (V_x, V_y, V_z, 1) /* point */\\
 W = (W_x, W_y, W_z, 0) /* direction */\\$
 normalize vectors, set length to 1. distinguish between a point and a direction,
 an address in memory vs a difference between 2 addresses in memory.
-just as computer memory, a point has an absolute location, a direction does not, direction is same no matter where you are.
+just as computer memory, a point has an absolute location, a direction does not, direction is the same no matter where you are.
 3 variables is hard. the trick is turn it into a parametric equation in just t, $V + t * W.\\$ 
 taking something in 3d space, ignore everything in that 3d space except what matters to me right now marching along that ray is in a 1d universe. it has a single variable t, a little ant walking along the ray, the ant lives its entire life along that ray.
 it does not know that it is a 3d space, all it cares is that I keep walking along the ray from v and eventually, am I about to 
