@@ -35,9 +35,9 @@ to account for ambient lighting such as skylight, add an ambient term $c_a$</br>
 $c = c_r(c_a + c_i \max(0, \textbf{n} \cdot \textbf{l}))$</br>
 phong lighting model</br>
 $\textbf{e}$ is direction from the spot to the eye, $\textbf{r}$ is reflection direction, bright when eye direction $\textbf{e}$ lines up with reflection direction $\textbf{r}$</br>
-$c = c_i (\textbf{e} \cdot \text{r})$</br>
+$c = c_i (\textbf{e} \cdot \textbf{r})$</br>
 highlight produced is wider than realistic situations, narrow highlight by raising maximum color to Phong exponent $p$</br>
-$c = c_i (0, textbf{e} \cdot \text{r}) ^ p$</br>
+$c = c_i (0, textbf{e} \cdot \textbf{r}) ^ p$</br>
 combine lambertian and phong, add a control term $c_p$ which is a RGB color, and use halfway unit vector $\textbf{h}$ between $\textbf{l}$ and $\textbf{e}$</br>
 $\textbf{h} = \frac{\textbf{e} + \textbf{l}}{||\textbf{e} + \textbf{l}||}$</br>
-$c = c_r(c_a + c_l \max(0, \textbf{n} \cdot \textbf{l})) + c_i c_p(textbf{h} \cdot \text{n}) ^ p$</br>
+$c = c_r(c_a + c_l \max(0, \textbf{n} \cdot \textbf{l})) + c_i c_p(\textbf{h} \cdot \text{n}) ^ p$</br>
