@@ -21,7 +21,7 @@ just as computer memory, a point has an absolute location, a direction does not,
 3 variables is hard. the trick is turn it into a parametric equation in just t, $V + tW$. 
 taking something in 3d space, ignore everything in that 3d space except what matters to me right now marching along that ray is in a 1d universe. it has a single variable t, a little ant walking along the ray, the ant lives its entire life along that ray.
 it does not know that it is in a 3d space, all it cares is that I keep walking along the ray from v and eventually, am I about to 
-bump into the sphere or not?
+bump into the sphere or not?</br>
 lambertian shading model</br>
 color $c$ of a surface is proportional to cosine of angle between surface normal $\textbf{n}$ and direction to light source $\textbf{l}$</br>
 $c \propto \cos\theta$</br>
