@@ -13,7 +13,7 @@ $\textbf{b} \cdot \textbf{b} t ^ 2 + 2\textbf{b} \cdot (\textbf{A} - \textbf{C})
 $\text{solve for } t \text{ by using quadratic equation}$
 
 $V = (V_x, V_y, V_z, 1) /* point */$</br>
-$W = (W_x, W_y, W_z, 0) /* direction */$</br>$
+$W = (W_x, W_y, W_z, 0) /* direction */$</br>
 normalize vectors, set length to 1. distinguish between a point and a direction,
 an address in memory vs a difference between 2 addresses in memory.
 just as computer memory, a point has an absolute location, a direction does not, direction is the same no matter where you are.
